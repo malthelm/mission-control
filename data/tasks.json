@@ -1,491 +1,150 @@
 {
   "tasks": [
     {
-      "id": "task_p01",
-      "title": "Weekly backup check",
-      "description": "Verify all automated backups completed successfully",
+      "id": "tnr_p01",
+      "title": "Daily Admin Sprint (30 min)",
+      "description": "Run one focused admin block daily: accounting queue + urgent replies + task board cleanup.",
       "status": "permanent",
-      "project": "devops",
-      "tags": [
-        "devops",
-        "maintenance"
-      ],
+      "project": "ops",
+      "tags": ["routine", "discipline"],
       "subtasks": [
-        {
-          "id": "sub_001",
-          "title": "Check database backups",
-          "done": false
-        },
-        {
-          "id": "sub_002",
-          "title": "Verify file storage sync",
-          "done": false
-        },
-        {
-          "id": "sub_003",
-          "title": "Test restore procedure",
-          "done": false
-        }
+        { "id": "sub_001", "title": "Check accounting intake queue", "done": false },
+        { "id": "sub_002", "title": "Handle urgent inbox items", "done": false },
+        { "id": "sub_003", "title": "Update Mission Control statuses", "done": false }
       ],
       "priority": "high",
-      "createdAt": "2026-01-15T09:00:00Z"
+      "createdAt": "2026-03-04T01:55:00Z"
     },
     {
-      "id": "task_p02",
-      "title": "Review analytics dashboard",
-      "description": "Check KPIs and identify trends or anomalies",
+      "id": "tnr_p02",
+      "title": "Evening Creative Protection",
+      "description": "Protect creative block after dinner. No system-building during this window unless critical.",
       "status": "permanent",
-      "project": "growth",
-      "tags": [
-        "growth",
-        "analytics"
-      ],
+      "project": "creative",
+      "tags": ["creative", "focus"],
       "subtasks": [],
-      "priority": "medium",
-      "createdAt": "2026-01-15T09:00:00Z"
+      "priority": "high",
+      "createdAt": "2026-03-04T01:55:00Z"
     },
     {
-      "id": "task_001",
-      "title": "Redesign landing page",
-      "description": "Modern refresh with improved conversion focus and mobile-first approach",
+      "id": "tnr_001",
+      "title": "File MOMS zero report (urgent)",
+      "description": "Submit zero report to buy time, then continue proper accounting implementation without deadline panic.",
       "status": "in_progress",
-      "project": "design",
-      "tags": [
-        "design",
-        "growth"
-      ],
+      "project": "accounting",
+      "tags": ["tax", "urgent", "denmark"],
       "subtasks": [
-        {
-          "id": "sub_001",
-          "title": "Competitor analysis",
-          "done": false
-        },
-        {
-          "id": "sub_002",
-          "title": "Wireframe concepts",
-          "done": false
-        },
-        {
-          "id": "sub_003",
-          "title": "Design mockups",
-          "done": false
-        },
-        {
-          "id": "sub_004",
-          "title": "Get stakeholder feedback",
-          "done": false
-        }
+        { "id": "sub_001", "title": "Confirm filing portal login works", "done": false },
+        { "id": "sub_002", "title": "Submit zero report", "done": false },
+        { "id": "sub_003", "title": "Save receipt/proof in archive", "done": false }
       ],
       "priority": "high",
-      "createdAt": "2026-01-20T10:00:00Z"
+      "createdAt": "2026-03-04T01:55:00Z"
     },
     {
-      "id": "task_002",
-      "title": "Plan weekend hiking trip",
-      "description": "Research trails, check weather, prepare gear for Saturday adventure",
-      "status": "backlog",
-      "project": "personal",
-      "tags": [
-        "personal",
-        "wellness"
-      ],
+      "id": "tnr_002",
+      "title": "Accounting intake queue v1",
+      "description": "Operationalize receipts/invoices/bank CSV into one queue with exception handling.",
+      "status": "in_progress",
+      "project": "accounting",
+      "tags": ["naturebog", "hledger", "paperless"],
       "subtasks": [
-        {
-          "id": "sub_001",
-          "title": "Choose trail (moderate difficulty)",
-          "done": false
-        },
-        {
-          "id": "sub_002",
-          "title": "Check weather forecast",
-          "done": false
-        },
-        {
-          "id": "sub_003",
-          "title": "Pack essentials",
-          "done": false
-        }
-      ],
-      "priority": "low",
-      "createdAt": "2026-01-25T18:00:00Z"
-    },
-    {
-      "id": "task_003",
-      "title": "Set up CI/CD pipeline",
-      "description": "Automate testing and deployment for the main project repository",
-      "status": "backlog",
-      "project": "devops",
-      "tags": [
-        "devops",
-        "automation"
-      ],
-      "subtasks": [
-        {
-          "id": "sub_001",
-          "title": "Configure GitHub Actions",
-          "done": false
-        },
-        {
-          "id": "sub_002",
-          "title": "Add test coverage reports",
-          "done": false
-        },
-        {
-          "id": "sub_003",
-          "title": "Set up staging environment",
-          "done": false
-        },
-        {
-          "id": "sub_004",
-          "title": "Document deployment process",
-          "done": false
-        }
+        { "id": "sub_001", "title": "Ingest latest receipts/invoices", "done": false },
+        { "id": "sub_002", "title": "Match obvious bank transactions", "done": false },
+        { "id": "sub_003", "title": "Mark unclear VAT items for review", "done": false }
       ],
       "priority": "high",
-      "createdAt": "2026-01-22T14:00:00Z"
+      "createdAt": "2026-03-04T01:55:00Z"
     },
     {
-      "id": "task_004",
-      "title": "Research email automation tools",
-      "description": "Compare options for newsletter and drip campaigns",
+      "id": "tnr_003",
+      "title": "Authenticate Google Workspace MCP",
+      "description": "Enable Gmail + Calendar so Serendipity can run daily brief and proactive scheduling support.",
       "status": "backlog",
-      "project": "growth",
-      "tags": [
-        "growth",
-        "research"
+      "project": "ops",
+      "tags": ["google", "oauth"],
+      "subtasks": [
+        { "id": "sub_001", "title": "Run first MCP call to trigger OAuth", "done": false },
+        { "id": "sub_002", "title": "Test calendar.list + gmail.search", "done": false }
       ],
-      "subtasks": [],
-      "priority": "medium",
-      "createdAt": "2026-01-24T11:00:00Z"
+      "priority": "high",
+      "createdAt": "2026-03-04T01:55:00Z"
     },
     {
-      "id": "task_005",
-      "title": "Implement dark mode",
-      "description": "Add theme toggle with system preference detection and persistence",
-      "status": "in_progress",
-      "project": "devops",
-      "tags": [
-        "devops",
-        "design"
-      ],
+      "id": "tnr_004",
+      "title": "Map True Nature release pipeline",
+      "description": "Document steps from song-ready to release for Maya/Willow cadence and handovers.",
+      "status": "backlog",
+      "project": "label",
+      "tags": ["releases", "handover"],
       "subtasks": [
-        {
-          "id": "sub_001",
-          "title": "Define color variables",
-          "done": true
-        },
-        {
-          "id": "sub_002",
-          "title": "Create theme toggle component",
-          "done": true
-        },
-        {
-          "id": "sub_003",
-          "title": "Persist preference in localStorage",
-          "done": false
-        },
-        {
-          "id": "sub_004",
-          "title": "Test across browsers",
-          "done": false
-        }
+        { "id": "sub_001", "title": "Define stages + owners", "done": false },
+        { "id": "sub_002", "title": "Capture required assets per stage", "done": false },
+        { "id": "sub_003", "title": "Define review checkpoints", "done": false }
       ],
       "priority": "medium",
-      "createdAt": "2026-01-23T09:00:00Z"
+      "createdAt": "2026-03-04T01:55:00Z"
     },
     {
-      "id": "task_006",
-      "title": "Write Q1 blog post",
-      "description": "Industry trends article for company blog, target 1500 words",
-      "status": "in_progress",
-      "project": "growth",
-      "tags": [
-        "growth",
-        "content"
-      ],
+      "id": "tnr_005",
+      "title": "Subscription audit",
+      "description": "Audit AI/tool subscriptions (OpenAI, Gemini, Claude, OpenRouter, others) and prune overlap.",
+      "status": "backlog",
+      "project": "ops",
+      "tags": ["cost", "audit"],
       "subtasks": [
-        {
-          "id": "sub_001",
-          "title": "Outline key points",
-          "done": true
-        },
-        {
-          "id": "sub_002",
-          "title": "Write first draft",
-          "done": true
-        },
-        {
-          "id": "sub_003",
-          "title": "Add visuals and examples",
-          "done": false
-        },
-        {
-          "id": "sub_004",
-          "title": "SEO optimization",
-          "done": false
-        }
+        { "id": "sub_001", "title": "List all active subscriptions", "done": false },
+        { "id": "sub_002", "title": "Mark must-have vs optional", "done": false },
+        { "id": "sub_003", "title": "Cancel low-value overlap", "done": false }
       ],
       "priority": "medium",
-      "createdAt": "2026-01-21T10:00:00Z"
+      "createdAt": "2026-03-04T01:55:00Z"
     },
     {
-      "id": "task_007",
-      "title": "Organize home office",
-      "description": "Declutter desk, improve cable management, add plants",
-      "status": "in_progress",
-      "project": "personal",
-      "tags": [
-        "personal",
-        "wellness"
-      ],
-      "subtasks": [
-        {
-          "id": "sub_001",
-          "title": "Sort through papers",
-          "done": true
-        },
-        {
-          "id": "sub_002",
-          "title": "Order cable organizers",
-          "done": true
-        },
-        {
-          "id": "sub_003",
-          "title": "Buy desk plant",
-          "done": false
-        }
-      ],
-      "priority": "low",
-      "createdAt": "2026-01-26T15:00:00Z"
-    },
-    {
-      "id": "task_008",
-      "title": "API documentation update",
-      "description": "Complete overhaul of REST API docs with examples and error codes",
+      "id": "tnr_006",
+      "title": "Mission Control + webhook wiring",
+      "description": "Dashboard, GitHub save, Tailscale route, and OpenClaw webhook pipeline are configured and tested.",
       "status": "review",
-      "project": "devops",
-      "tags": [
-        "devops",
-        "documentation"
-      ],
+      "project": "systems",
+      "tags": ["mission-control", "webhooks", "tailscale"],
       "subtasks": [
-        {
-          "id": "sub_001",
-          "title": "Document all endpoints",
-          "done": true
-        },
-        {
-          "id": "sub_002",
-          "title": "Add request/response examples",
-          "done": true
-        },
-        {
-          "id": "sub_003",
-          "title": "Include authentication guide",
-          "done": true
-        },
-        {
-          "id": "sub_004",
-          "title": "Peer review",
-          "done": false
-        }
+        { "id": "sub_001", "title": "Dashboard reachable over tailnet", "done": true },
+        { "id": "sub_002", "title": "GitHub save works from UI", "done": true },
+        { "id": "sub_003", "title": "Webhook endpoint receives signed events", "done": true }
       ],
       "priority": "high",
-      "createdAt": "2026-01-18T09:00:00Z"
+      "createdAt": "2026-03-04T01:55:00Z"
     },
     {
-      "id": "task_009",
-      "title": "New logo concepts",
-      "description": "Three variations for brand refresh, awaiting team vote",
-      "status": "review",
-      "project": "design",
-      "tags": [
-        "design",
-        "branding"
-      ],
+      "id": "tnr_007",
+      "title": "Memory embeddings + sanity routine",
+      "description": "OpenAI embedding memory configured; sanity checks tuned to reduce false alarms.",
+      "status": "done",
+      "project": "systems",
+      "tags": ["memory", "reliability"],
       "subtasks": [
-        {
-          "id": "sub_001",
-          "title": "Minimalist version",
-          "done": true
-        },
-        {
-          "id": "sub_002",
-          "title": "Bold/modern version",
-          "done": true
-        },
-        {
-          "id": "sub_003",
-          "title": "Classic refined version",
-          "done": true
-        }
+        { "id": "sub_001", "title": "Embedding provider configured", "done": true },
+        { "id": "sub_002", "title": "Hybrid memory mode verified", "done": true },
+        { "id": "sub_003", "title": "Heartbeat probe tuned", "done": true }
       ],
       "priority": "medium",
-      "createdAt": "2026-01-19T11:00:00Z"
-    },
-    {
-      "id": "task_010",
-      "title": "Fix login redirect bug",
-      "description": "Users were redirected to wrong page after OAuth login",
-      "status": "done",
-      "project": "devops",
-      "tags": [
-        "devops",
-        "bugfix"
-      ],
-      "subtasks": [
-        {
-          "id": "sub_001",
-          "title": "Reproduce issue",
-          "done": true
-        },
-        {
-          "id": "sub_002",
-          "title": "Identify root cause",
-          "done": true
-        },
-        {
-          "id": "sub_003",
-          "title": "Implement fix",
-          "done": true
-        },
-        {
-          "id": "sub_004",
-          "title": "Write regression test",
-          "done": true
-        }
-      ],
-      "priority": "high",
-      "createdAt": "2026-01-17T08:00:00Z"
-    },
-    {
-      "id": "task_011",
-      "title": "Quarterly tax prep",
-      "description": "Gather documents and submit to accountant",
-      "status": "done",
-      "project": "personal",
-      "tags": [
-        "personal",
-        "finance"
-      ],
-      "subtasks": [
-        {
-          "id": "sub_001",
-          "title": "Export bank statements",
-          "done": true
-        },
-        {
-          "id": "sub_002",
-          "title": "Organize receipts",
-          "done": true
-        },
-        {
-          "id": "sub_003",
-          "title": "Send to accountant",
-          "done": true
-        }
-      ],
-      "priority": "high",
-      "createdAt": "2026-01-10T09:00:00Z"
-    },
-    {
-      "id": "task_012",
-      "title": "Social media content calendar",
-      "description": "Plan posts for February across all platforms",
-      "status": "done",
-      "project": "growth",
-      "tags": [
-        "growth",
-        "content"
-      ],
-      "subtasks": [
-        {
-          "id": "sub_001",
-          "title": "Identify key dates/events",
-          "done": true
-        },
-        {
-          "id": "sub_002",
-          "title": "Draft post ideas",
-          "done": true
-        },
-        {
-          "id": "sub_003",
-          "title": "Schedule in buffer",
-          "done": true
-        }
-      ],
-      "priority": "medium",
-      "createdAt": "2026-01-12T14:00:00Z"
+      "createdAt": "2026-03-04T01:55:00Z"
     }
   ],
   "projects": [
-    {
-      "id": "devops",
-      "name": "DevOps",
-      "color": "#3b82f6",
-      "icon": "💻"
-    },
-    {
-      "id": "growth",
-      "name": "Growth",
-      "color": "#10b981",
-      "icon": "📈"
-    },
-    {
-      "id": "design",
-      "name": "Design",
-      "color": "#f59e0b",
-      "icon": "🎨"
-    },
-    {
-      "id": "personal",
-      "name": "Personal",
-      "color": "#8b5cf6",
-      "icon": "🏠"
-    },
-    {
-      "id": "wellness",
-      "name": "Wellness",
-      "color": "#ec4899",
-      "icon": "🧘"
-    }
+    { "id": "accounting", "name": "Accounting", "color": "#ef4444", "icon": "💰" },
+    { "id": "label", "name": "Label Ops", "color": "#10b981", "icon": "🎵" },
+    { "id": "ops", "name": "Operations", "color": "#3b82f6", "icon": "📋" },
+    { "id": "systems", "name": "Systems", "color": "#8b5cf6", "icon": "🛠️" },
+    { "id": "creative", "name": "Creative", "color": "#f59e0b", "icon": "🎨" }
   ],
   "activities": [
     {
-      "type": "completed",
-      "actor": "You",
-      "task": "Social media content calendar",
-      "time": "2 hours ago"
-    },
-    {
-      "type": "moved",
-      "actor": "AI Assistant",
-      "task": "API documentation update",
-      "from": "in_progress",
-      "to": "review",
-      "time": "4 hours ago"
-    },
-    {
       "type": "created",
-      "actor": "You",
-      "task": "Plan weekend hiking trip",
-      "time": "yesterday"
-    },
-    {
-      "type": "completed",
-      "actor": "You",
-      "task": "Fix login redirect bug",
-      "time": "2 days ago"
-    },
-    {
-      "type": "moved",
-      "actor": "AI Assistant",
-      "task": "Implement dark mode",
-      "from": "backlog",
-      "to": "in_progress",
-      "time": "3 days ago"
+      "actor": "Serendipity",
+      "task": "Populated True Nature task board",
+      "time": "just now"
     }
   ],
-  "lastUpdated": "2026-03-04T01:46:00.822Z"
+  "lastUpdated": "2026-03-04T01:55:00Z"
 }
