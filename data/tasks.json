@@ -6,11 +6,26 @@
       "description": "Run one focused admin block daily: accounting queue + urgent replies + task board cleanup.",
       "status": "permanent",
       "project": "ops",
-      "tags": ["routine", "discipline"],
+      "tags": [
+        "routine",
+        "discipline"
+      ],
       "subtasks": [
-        { "id": "sub_001", "title": "Check accounting intake queue", "done": false },
-        { "id": "sub_002", "title": "Handle urgent inbox items", "done": false },
-        { "id": "sub_003", "title": "Update Mission Control statuses", "done": false }
+        {
+          "id": "sub_001",
+          "title": "Check accounting intake queue",
+          "done": false
+        },
+        {
+          "id": "sub_002",
+          "title": "Handle urgent inbox items",
+          "done": false
+        },
+        {
+          "id": "sub_003",
+          "title": "Update Mission Control statuses",
+          "done": false
+        }
       ],
       "priority": "high",
       "createdAt": "2026-03-04T01:55:00Z"
@@ -21,7 +36,10 @@
       "description": "Protect creative block after dinner. No system-building during this window unless critical.",
       "status": "permanent",
       "project": "creative",
-      "tags": ["creative", "focus"],
+      "tags": [
+        "creative",
+        "focus"
+      ],
       "subtasks": [],
       "priority": "high",
       "createdAt": "2026-03-04T01:55:00Z"
@@ -32,11 +50,27 @@
       "description": "Submit zero report to buy time, then continue proper accounting implementation without deadline panic.",
       "status": "in_progress",
       "project": "accounting",
-      "tags": ["tax", "urgent", "denmark"],
+      "tags": [
+        "tax",
+        "urgent",
+        "denmark"
+      ],
       "subtasks": [
-        { "id": "sub_001", "title": "Confirm filing portal login works", "done": false },
-        { "id": "sub_002", "title": "Submit zero report", "done": false },
-        { "id": "sub_003", "title": "Save receipt/proof in archive", "done": false }
+        {
+          "id": "sub_001",
+          "title": "Confirm filing portal login works",
+          "done": false
+        },
+        {
+          "id": "sub_002",
+          "title": "Submit zero report",
+          "done": false
+        },
+        {
+          "id": "sub_003",
+          "title": "Save receipt/proof in archive",
+          "done": false
+        }
       ],
       "priority": "high",
       "createdAt": "2026-03-04T01:55:00Z"
@@ -47,11 +81,27 @@
       "description": "Operationalize receipts/invoices/bank CSV into one queue with exception handling.",
       "status": "in_progress",
       "project": "accounting",
-      "tags": ["naturebog", "hledger", "paperless"],
+      "tags": [
+        "naturebog",
+        "hledger",
+        "paperless"
+      ],
       "subtasks": [
-        { "id": "sub_001", "title": "Ingest latest receipts/invoices", "done": false },
-        { "id": "sub_002", "title": "Match obvious bank transactions", "done": false },
-        { "id": "sub_003", "title": "Mark unclear VAT items for review", "done": false }
+        {
+          "id": "sub_001",
+          "title": "Ingest latest receipts/invoices",
+          "done": false
+        },
+        {
+          "id": "sub_002",
+          "title": "Match obvious bank transactions",
+          "done": false
+        },
+        {
+          "id": "sub_003",
+          "title": "Mark unclear VAT items for review",
+          "done": false
+        }
       ],
       "priority": "high",
       "createdAt": "2026-03-04T01:55:00Z"
@@ -62,10 +112,21 @@
       "description": "Enable Gmail + Calendar so Serendipity can run daily brief and proactive scheduling support.",
       "status": "backlog",
       "project": "ops",
-      "tags": ["google", "oauth"],
+      "tags": [
+        "google",
+        "oauth"
+      ],
       "subtasks": [
-        { "id": "sub_001", "title": "Run first MCP call to trigger OAuth", "done": false },
-        { "id": "sub_002", "title": "Test calendar.list + gmail.search", "done": false }
+        {
+          "id": "sub_001",
+          "title": "Run first MCP call to trigger OAuth",
+          "done": false
+        },
+        {
+          "id": "sub_002",
+          "title": "Test calendar.list + gmail.search",
+          "done": false
+        }
       ],
       "priority": "high",
       "createdAt": "2026-03-04T01:55:00Z"
@@ -76,11 +137,26 @@
       "description": "Document steps from song-ready to release for Maya/Willow cadence and handovers.",
       "status": "backlog",
       "project": "label",
-      "tags": ["releases", "handover"],
+      "tags": [
+        "releases",
+        "handover"
+      ],
       "subtasks": [
-        { "id": "sub_001", "title": "Define stages + owners", "done": false },
-        { "id": "sub_002", "title": "Capture required assets per stage", "done": false },
-        { "id": "sub_003", "title": "Define review checkpoints", "done": false }
+        {
+          "id": "sub_001",
+          "title": "Define stages + owners",
+          "done": false
+        },
+        {
+          "id": "sub_002",
+          "title": "Capture required assets per stage",
+          "done": false
+        },
+        {
+          "id": "sub_003",
+          "title": "Define review checkpoints",
+          "done": false
+        }
       ],
       "priority": "medium",
       "createdAt": "2026-03-04T01:55:00Z"
@@ -91,11 +167,26 @@
       "description": "Audit AI/tool subscriptions (OpenAI, Gemini, Claude, OpenRouter, others) and prune overlap.",
       "status": "backlog",
       "project": "ops",
-      "tags": ["cost", "audit"],
+      "tags": [
+        "cost",
+        "audit"
+      ],
       "subtasks": [
-        { "id": "sub_001", "title": "List all active subscriptions", "done": false },
-        { "id": "sub_002", "title": "Mark must-have vs optional", "done": false },
-        { "id": "sub_003", "title": "Cancel low-value overlap", "done": false }
+        {
+          "id": "sub_001",
+          "title": "List all active subscriptions",
+          "done": false
+        },
+        {
+          "id": "sub_002",
+          "title": "Mark must-have vs optional",
+          "done": false
+        },
+        {
+          "id": "sub_003",
+          "title": "Cancel low-value overlap",
+          "done": false
+        }
       ],
       "priority": "medium",
       "createdAt": "2026-03-04T01:55:00Z"
@@ -106,11 +197,27 @@
       "description": "Dashboard, GitHub save, Tailscale route, and OpenClaw webhook pipeline are configured and tested.",
       "status": "review",
       "project": "systems",
-      "tags": ["mission-control", "webhooks", "tailscale"],
+      "tags": [
+        "mission-control",
+        "webhooks",
+        "tailscale"
+      ],
       "subtasks": [
-        { "id": "sub_001", "title": "Dashboard reachable over tailnet", "done": true },
-        { "id": "sub_002", "title": "GitHub save works from UI", "done": true },
-        { "id": "sub_003", "title": "Webhook endpoint receives signed events", "done": true }
+        {
+          "id": "sub_001",
+          "title": "Dashboard reachable over tailnet",
+          "done": true
+        },
+        {
+          "id": "sub_002",
+          "title": "GitHub save works from UI",
+          "done": true
+        },
+        {
+          "id": "sub_003",
+          "title": "Webhook endpoint receives signed events",
+          "done": true
+        }
       ],
       "priority": "high",
       "createdAt": "2026-03-04T01:55:00Z"
@@ -121,22 +228,62 @@
       "description": "OpenAI embedding memory configured; sanity checks tuned to reduce false alarms.",
       "status": "done",
       "project": "systems",
-      "tags": ["memory", "reliability"],
+      "tags": [
+        "memory",
+        "reliability"
+      ],
       "subtasks": [
-        { "id": "sub_001", "title": "Embedding provider configured", "done": true },
-        { "id": "sub_002", "title": "Hybrid memory mode verified", "done": true },
-        { "id": "sub_003", "title": "Heartbeat probe tuned", "done": true }
+        {
+          "id": "sub_001",
+          "title": "Embedding provider configured",
+          "done": true
+        },
+        {
+          "id": "sub_002",
+          "title": "Hybrid memory mode verified",
+          "done": true
+        },
+        {
+          "id": "sub_003",
+          "title": "Heartbeat probe tuned",
+          "done": true
+        }
       ],
       "priority": "medium",
       "createdAt": "2026-03-04T01:55:00Z"
     }
   ],
   "projects": [
-    { "id": "accounting", "name": "Accounting", "color": "#ef4444", "icon": "💰" },
-    { "id": "label", "name": "Label Ops", "color": "#10b981", "icon": "🎵" },
-    { "id": "ops", "name": "Operations", "color": "#3b82f6", "icon": "📋" },
-    { "id": "systems", "name": "Systems", "color": "#8b5cf6", "icon": "🛠️" },
-    { "id": "creative", "name": "Creative", "color": "#f59e0b", "icon": "🎨" }
+    {
+      "id": "accounting",
+      "name": "Accounting",
+      "color": "#ef4444",
+      "icon": "💰"
+    },
+    {
+      "id": "label",
+      "name": "Label Ops",
+      "color": "#10b981",
+      "icon": "🎵"
+    },
+    {
+      "id": "ops",
+      "name": "Operations",
+      "color": "#3b82f6",
+      "icon": "📋"
+    },
+    {
+      "id": "systems",
+      "name": "Systems",
+      "color": "#8b5cf6",
+      "icon": "🛠️"
+    },
+    {
+      "id": "creative",
+      "name": "Creative",
+      "color": "#f59e0b",
+      "icon": "🎨"
+    }
   ],
   "activities": [
     {
@@ -146,5 +293,5 @@
       "time": "just now"
     }
   ],
-  "lastUpdated": "2026-03-04T01:55:00Z"
+  "lastUpdated": "2026-03-04T02:44:10.841Z"
 }
